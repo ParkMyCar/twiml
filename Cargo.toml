@@ -1,0 +1,15 @@
+[package]
+name = "twiml"
+version = "0.3.0"
+description = """
+Typesafe construction of Twilio TwiML
+"""
+repository = "https://github.com/leshow/twilio"
+keywords = ["twilio", "twiml", "api"]
+categories = ["network-programming", "api-bindings", "web-programming", "development-tools"]
+license = "MIT"
+authors = ["Evan Cameron <cameron.evan@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+xml-rs = "0.8"
